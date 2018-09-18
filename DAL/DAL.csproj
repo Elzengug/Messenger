@@ -56,7 +56,15 @@
     <Compile Include="Contracts\Repositories\IGenericRepository.cs" />
     <Compile Include="Contracts\Repositories\IGroupRepository.cs" />
     <Compile Include="Contracts\Repositories\IJobRepository.cs" />
+    <Compile Include="Data\Context\MessengerDbContext.cs" />
+    <Compile Include="Data\Repositories\ClientGroupRepository.cs" />
+    <Compile Include="Data\Repositories\ClientJobRepository.cs" />
+    <Compile Include="Data\Repositories\ClientMessageRepository.cs" />
+    <Compile Include="Data\Repositories\ClientRepository.cs" />
     <Compile Include="Data\Repositories\GenericRepository.cs" />
+    <Compile Include="Data\Repositories\GroupRepository.cs" />
+    <Compile Include="Data\Repositories\JobRepository.cs" />
+    <Compile Include="Data\Repositories\MessageRepository.cs" />
     <Compile Include="Models\Authorization\User.cs" />
     <Compile Include="Models\Base\BaseEntity.cs" />
     <Compile Include="Models\DomainModels\Client.cs" />
@@ -72,8 +80,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\Context\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
