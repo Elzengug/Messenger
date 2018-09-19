@@ -11,10 +11,10 @@ namespace DAL.Data.Context
 {
     public class MessengerDbContext: DbContext, IDbContext
     {
-        public const string ConnectionString =
-          @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BookShopDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+       // public const string ConnectionString =
+          //@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BookShopDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
-        public MessengerDbContext() : base(ConnectionString)
+        public MessengerDbContext() : base("DefaultConnection")
         {
 
         }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DAL.Models.DomainModels
 {
-    public class ClientGroup: BaseEntity<int>
+    public class ClientGroup
     {
         public int GroupId { get; set; }
         public int ClientId { get; set; }

@@ -56,6 +56,7 @@
     <Compile Include="Contracts\Repositories\IGenericRepository.cs" />
     <Compile Include="Contracts\Repositories\IGroupRepository.cs" />
     <Compile Include="Contracts\Repositories\IJobRepository.cs" />
+    <Compile Include="Contracts\Repositories\IMessageRepository.cs" />
     <Compile Include="Data\Context\MessengerDbContext.cs" />
     <Compile Include="Data\Repositories\ClientGroupRepository.cs" />
     <Compile Include="Data\Repositories\ClientJobRepository.cs" />
@@ -65,6 +66,11 @@
     <Compile Include="Data\Repositories\GroupRepository.cs" />
     <Compile Include="Data\Repositories\JobRepository.cs" />
     <Compile Include="Data\Repositories\MessageRepository.cs" />
+    <Compile Include="Migrations\201809190722343_init.cs" />
+    <Compile Include="Migrations\201809190722343_init.Designer.cs">
+      <DependentUpon>201809190722343_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Authorization\User.cs" />
     <Compile Include="Models\Base\BaseEntity.cs" />
     <Compile Include="Models\DomainModels\Client.cs" />
@@ -80,6 +86,10 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201809190722343_init.resx">
+      <DependentUpon>201809190722343_init.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
