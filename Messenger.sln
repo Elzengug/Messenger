@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{B9C1DBA6-F170-4BBC-800B-A0BB506E57DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{271987A8-2EBD-470A-81F2-30BCC1A84A63}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebClient", "WebClient", "{2AAF2CB2-A2FC-424D-B898-26F8C5E70731}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MessengerClient", "WebClient\MessengerClient\", "{CD1341F9-E585-47CF-A492-2CA013284D4B}"
@@ -29,7 +27,10 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MessengerClient", "WebClien
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "50993"
+		SlnRelativePath = "WebClient\MessengerClient\"
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{D70A8441-2B4C-4E09-8BA8-66FAE3C575D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,14 +46,14 @@ Global
 		{B9C1DBA6-F170-4BBC-800B-A0BB506E57DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9C1DBA6-F170-4BBC-800B-A0BB506E57DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9C1DBA6-F170-4BBC-800B-A0BB506E57DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{271987A8-2EBD-470A-81F2-30BCC1A84A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{271987A8-2EBD-470A-81F2-30BCC1A84A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{271987A8-2EBD-470A-81F2-30BCC1A84A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{271987A8-2EBD-470A-81F2-30BCC1A84A63}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CD1341F9-E585-47CF-A492-2CA013284D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CD1341F9-E585-47CF-A492-2CA013284D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD1341F9-E585-47CF-A492-2CA013284D4B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{CD1341F9-E585-47CF-A492-2CA013284D4B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D70A8441-2B4C-4E09-8BA8-66FAE3C575D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70A8441-2B4C-4E09-8BA8-66FAE3C575D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70A8441-2B4C-4E09-8BA8-66FAE3C575D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70A8441-2B4C-4E09-8BA8-66FAE3C575D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

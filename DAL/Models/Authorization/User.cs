@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DAL.Models.Authorization
 {
-    class User : BaseEntity<int>
+    public class User : BaseEntity<int>
     {
         public string Name { get; set; }
         public string Password { get; set; }
