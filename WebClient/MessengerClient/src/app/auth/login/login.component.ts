@@ -14,7 +14,6 @@ export class LoginComponent {
       this.user.password = '111111aA!';
   }
   submit(user: User) {
-  
     this.authService.login(user)
   }
 }

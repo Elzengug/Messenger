@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { GroupComponent } from './group/group.component';
 import { ClientsComponent } from './clients/clients.component';
+import { CreateClientComponent } from './clients/create-client/create-client.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { ClientsComponent } from './clients/clients.component';
   declarations: [
     GroupComponent,
     ClientsComponent,
+    CreateClientComponent,
   ]
 })
 export class AdminModule { }

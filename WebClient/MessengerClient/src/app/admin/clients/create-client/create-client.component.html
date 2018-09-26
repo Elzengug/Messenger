@@ -1,0 +1,7 @@
+<form class="form-group" method="POST">
+    <label for="exampleInputEmail1">Enter client's name </label>
+    <input type="text" class="form-control" id="inputName" [(ngModel)]="client.clientName" name="clientName" aria-describedby="emailHelp" placeholder="Enter name">
+    <label for="exampleInputPassword1">Enter client's email</label>
+    <input type="email" class="form-control" id="inputEmail" [(ngModel)]="client.clientEmail" name="clientEmail" placeholder="Enter email">
+  <button  class="btn btn-lg btn btn-dark" type="submit" (click)="submit(client)" >Create</button>
+</form>
